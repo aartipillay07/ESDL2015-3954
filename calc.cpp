@@ -1,12 +1,16 @@
 #include<iostream>
 using namespace std;
-
 class calci
 {
-  int a,b;
+  int a,b,c;
   void add();
   void subtract();
 };
+
+void calci::add()
+{
+  c=a+b;
+}
 int main()
 {
   calci c;
